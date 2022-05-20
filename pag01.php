@@ -7,11 +7,19 @@
 </head>
 <body>
 
+
+	<form name="retangulo" method="post" action="pag02.php">
+	Perimetro de um retângulo:<br><br>
+
 	Valor 1: 
-	<input type="number" name="valor1"><br><br>
+	<input type="text" name="valor1"><br><br>
 
 	Valor 2:
-	<input type="number" name="valor2"><br><br>
+	<input type="text" name="valor2"><br><br>
 
+
+
+	<input type="submit" name="Enviar">
+	</form>
 </body>
 </html>
